@@ -11,26 +11,26 @@ This project demonstrates a comprehensive understanding of modern web developmen
 
 ---
 
-
 ## ✨ Key Features & Modules
 
 AeroPulse is built around three core user roles, each with a tailored set of features.
 
 ### 👤 For Passengers (The User Benefit Interface)
 
-*   **Elegant Multi-Step Onboarding:** A guided, 4-step registration wizard for a smooth signup experience, collecting personal, contact, and profile information, including a photo upload.
-*   **Advanced Flight Search:** An intuitive interface to find flights based on route, number of passengers (Adults, Children, Infants), and travel class (Economy/Business), featuring searchable airport dropdowns.
-*   **Personalized Dashboard:** A central hub for registered users to view their complete booking history, check flight statuses (Pending, Confirmed, Cancelled), and access key actions.
-*   **Complete Booking Lifecycle:** A seamless end-to-end booking flow, from a detailed fare confirmation page to a simulated payment gateway, with automated generation of printable **e-tickets** and **invoices**.
-*   **Full Profile Management:** Users can view and update all their personal details—including their name, contact info, address, gender, and profile photo—from a dedicated profile page.
-*   **Easy Cancellations & Reviews:** Passengers can cancel confirmed bookings and leave post-flight reviews (rating and comment), contributing to a community-driven experience.
-*   **Live Notifications:** A real-time notification system in the navbar keeps users informed of important updates.
+- **Elegant Multi-Step Onboarding:** A guided, 4-step registration wizard for a smooth signup experience, collecting personal, contact, and profile information, including a photo upload.
+- **Advanced Flight Search:** An intuitive interface to find flights based on route, number of passengers (Adults, Children, Infants), and travel class (Economy/Business), featuring searchable airport dropdowns.
+- **Personalized Dashboard:** A central hub for registered users to view their complete booking history, check flight statuses (Pending, Confirmed, Cancelled), and access key actions.
+- **Complete Booking Lifecycle:** A seamless end-to-end booking flow, from a detailed fare confirmation page to a simulated payment gateway, with automated generation of printable **e-tickets** and **invoices**.
+- **Full Profile Management:** Users can view and update all their personal details—including their name, contact info, address, gender, and profile photo—from a dedicated profile page.
+- **Easy Cancellations & Reviews:** Passengers can cancel confirmed bookings and leave post-flight reviews (rating and comment), contributing to a community-driven experience.
+- **Live Notifications:** A real-time notification system in the navbar keeps users informed of important updates.
 
 ### 🌟 The Unique Features Showcase
 
 What truly sets AeroPulse apart is its focus on travel discovery.
 
 #### The Global Price Map
+
 Turn flight booking into an adventure. This interactive world map allows users to select a departure airport and instantly see a "heatmap" of global travel affordability, with countries color-coded by the cheapest available flight price. It’s a powerful data visualization tool that answers the question: "Where in the world can I afford to go?"
 
 <p align="center">
@@ -39,9 +39,9 @@ Turn flight booking into an adventure. This interactive world map allows users t
 
 ### 🛠️ For Administrators
 
-*   **Comprehensive Backend Control:** A secure and powerful backend powered by the Django Admin Panel.
-*   **Full CRUD Functionality:** Administrators have complete Create, Read, Update, and Delete control over all core data, including **Flights** (with separate pricing/seating for Economy and Business), **Airlines**, and **Airports**.
-*   **System Oversight:** Admins can view all user bookings, manage passenger accounts, moderate reviews, and send notifications.
+- **Comprehensive Backend Control:** A secure and powerful backend powered by the Django Admin Panel.
+- **Full CRUD Functionality:** Administrators have complete Create, Read, Update, and Delete control over all core data, including **Flights** (with separate pricing/seating for Economy and Business), **Airlines**, and **Airports**.
+- **System Oversight:** Admins can view all user bookings, manage passenger accounts, moderate reviews, and send notifications.
 
 ---
 
@@ -59,12 +59,12 @@ A single, deliberate exception to 3NF is the `total_fare` field in the `Booking`
 ## 📸 Application Screenshots
 
 | Login Page (Glassmorphism UI) | Registration Wizard (with Progress Bar) |
-| :---: | :---: |
-| ![Login Page](Picture2.png) | ![Registration Page](Picture3.png) |
-| **Homepage Search** | **Passenger Dashboard** |
-| ![Homepage](Picture1.png) | ![Dashboard](dashboard.png.png) |
-| **Printable E-Ticket** | **User Profile Page** |
-| ![Ticket](Picture14.png) | ![Profile Page](Picture9.png) |
+| :---------------------------: | :-------------------------------------: |
+|  ![Login Page](Picture2.png)  |   ![Registration Page](Picture3.png)    |
+|      **Homepage Search**      |         **Passenger Dashboard**         |
+|   ![Homepage](Picture1.png)   |     ![Dashboard](dashboard.png.png)     |
+|    **Printable E-Ticket**     |          **User Profile Page**          |
+|   ![Ticket](Picture14.png)    |      ![Profile Page](Picture9.png)      |
 
 ---
 
@@ -73,11 +73,20 @@ A single, deliberate exception to 3NF is the `total_fare` field in the `Booking`
 To run this project on your local machine, please follow these steps:
 
 ### 1. Prerequisites
-*   Python (3.10 or higher recommended)
-*   MySQL Server
-*   Git
+
+- Python (3.10 or higher recommended)
+- MySQL Server
+- Git
 
 ### 2. Clone the Repository
+
 ```bash
 git clone https://github.com/your-username/AeroPulse.git
 cd AeroPulse
+
+Project Contributors:
+
+1. Md Shahriar Nasim Shawon
+2. Sadman Sakib
+3. Farzana Islam Mimi
+```
